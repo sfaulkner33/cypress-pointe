@@ -928,7 +928,7 @@ const PARCELS = {
 HOMES.sort((a,b)=>parseInt(a.addr)-parseInt(b.addr));
 let leafletMarkers={}, parcelLayers={}, activeAddr=null;
 
-const map=L.map("map").setView([34.176588,-78.021496],17);
+const map=L.map("map").setView([34.176588,-78.021496],18);
 L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",{
   attribution:"&copy; OpenStreetMap &copy; CARTO",maxZoom:19,subdomains:"abcd"
 }).addTo(map);
